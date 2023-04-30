@@ -13,13 +13,13 @@ To use AnyStruct in your Rust project, add the following line to your `Cargo.tom
 
 ```toml
 [dependencies]
-any_struct = "0.1.0"
+anystruct = "0.1.0"
 ```
 
 Here is an example usage for converting a JSON string to a Proto struct:
 
 ```rust
-use any_struct::{IntoProto, ProtoStruct};
+use anystruct::{IntoProto, ProtoStruct};
 
 let json_str = r#"{
     "name": "John Doe",
@@ -41,7 +41,7 @@ let proto_struct = ProtoStruct { fields: [("my_data".to_string(), proto_value)].
 And here is an example usage for converting a Proto struct to a JSON string:
 
 ```rust
-use any_struct::{IntoJSON, IntoJSONStruct};
+use anystruct::{IntoJSON, IntoJSONStruct};
 
 let proto_value = prost_types::Value {
     kind: Some(prost_types::value::Kind::StructValue(prost_types::Struct {
