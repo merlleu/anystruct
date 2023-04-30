@@ -3,6 +3,14 @@ name = "anystruct"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+description = "AnyStruct is a Rust crate that provides traits for converting between JSON and Protocol Buffers (Proto) data structures."
+repository = "https://github.com/merlleu/anystruct"
+readme = "README.md"
+keywords = ["rust", "json", "protobuf", "proto", "serde", "serde_json", "prost", "prost_types"]
+categories = ["data-structures", "serialization", "deserialization"]
+authors = ["merlleu <mrerl@warlegend.net>"]
+homepage = "https://github.com/merlleu/anystruct"
+documentation = "https://docs.rs/anystruct"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
